@@ -1,0 +1,109 @@
+h3, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+div.jupiter {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: 15px;
+}
+
+div.mercury {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 5px;
+}
+
+div.venus {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #E8E8E8;
+    margin: 5px;
+}
+
+div.earth {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:blue;
+    margin: 5px;
+}
+
+div.mars {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orangered;
+    margin: 5px;
+}
+
+div.saturn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FFFF99;
+    margin: 5px;
+}
+
+div.uranus {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #95B9C7;
+    margin: 5px;
+}
+
+div.neptune {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #157DEC;
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.text-format {
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px; 
+}
+
+.text-body {
+    color: white;
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size:12px;
+    width: 500px;
+    line-height: 1.5;
+}
+
+.planet-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 45px 0;
+    z-index: 2;
+}
